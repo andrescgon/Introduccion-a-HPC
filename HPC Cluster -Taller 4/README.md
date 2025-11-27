@@ -12,7 +12,7 @@ Esta solución divide la carga de trabajo en dos componentes principales:
 
 ```mermaid
 graph LR
-    Client[Cliente Python] -->|Peticiones HTTP (Concurrentes)| LB[Ingress Docker Swarm]
+    Client[Cliente Python] -->| Peticiones HTTP (Concurrentes)| LB[Ingress Docker Swarm]
     LB -->|Balanceo de Carga| Node1[Réplica 1]
     LB -->|Balanceo de Carga| Node2[Réplica 2]
     LB -->|Balanceo de Carga| Node3[Réplica 3]
@@ -55,3 +55,4 @@ El sistema distribuye exitosamente la carga de calcular $N!$ rutas.
 
 ---
 *Universidad Sergio Arboleda - HPC Cluster*
+
