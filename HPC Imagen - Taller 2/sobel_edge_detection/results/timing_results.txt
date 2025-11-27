@@ -1,0 +1,27 @@
+======================================================================
+RESULTADOS - DETECCION DE BORDES SOBEL
+======================================================================
+
+Imagen procesada: images/input/pikachu.jpg
+Cores CPU utilizados: 8
+
+----------------------------------------------------------------------
+TIEMPOS DE EJECUCION
+----------------------------------------------------------------------
+Tiempo Secuencial (1 core):   4.5868 segundos
+Tiempo Paralelo (8 cores):    1.8412 segundos
+Reduccion:                    2.7456 segundos
+
+----------------------------------------------------------------------
+METRICAS DE RENDIMIENTO
+----------------------------------------------------------------------
+Speedup:                      2.49x
+Eficiencia:                   31.14%
+Reduccion porcentual:         59.86%
+
+----------------------------------------------------------------------
+INTERPRETACION
+----------------------------------------------------------------------
+La version paralela logro un speedup de 2.49x
+usando 8 cores de CPU.
+Eficiencia: 31.14%
